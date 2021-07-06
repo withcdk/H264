@@ -77,7 +77,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	}
 
 	vector<uint8> nalBytes;
-	find_nal_prefix(&pFile_in, nalBytes);
+	find_nal_prefix(&pFile_in, nalBytes);//找起始码，并把起始码剔除nalBytes容器
 
 	find_nal_prefix(&pFile_in, nalBytes);
 	for (int idx = 0; idx < nalBytes.size(); idx++)

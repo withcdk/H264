@@ -16,3 +16,8 @@
 /Simplest_h264_analyzer/*.opendb
 /Simplest_h264_analyzer/Simplest_h264_analyzer/Debug
 /Simplest_h264_analyzer/Simplest_h264_analyzer/*.user
+/demo/huffuman/.vs
+/demo/huffuman/Debug
+/demo/huffuman/ipch
+/demo/huffuman/*.db
+/demo/huffuman/huffuman/Debug

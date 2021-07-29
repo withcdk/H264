@@ -21,3 +21,9 @@
 /demo/huffuman/ipch
 /demo/huffuman/*.db
 /demo/huffuman/huffuman/Debug
+/demo/ExpGolomb/.vs
+/demo/ExpGolomb/Debug
+/demo/ExpGolomb/ipch
+/demo/ExpGolomb/*.db
+/demo/ExpGolomb/*.opendb
+/demo/ExpGolomb/ExpGolomb/Debug

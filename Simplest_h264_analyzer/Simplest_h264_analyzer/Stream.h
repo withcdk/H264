@@ -18,14 +18,15 @@ private:
 	FILE      *m_inputFile;
 	TCHAR     *m_fileName;
 
-	std::vector<uint8> m_nalVec;//在头文件中最好不要使用using namespace std;
+	std::vector<UINT8> m_nalVec;//在头文件中最好不要使用using namespace std;
 
 	void file_info();
 	void file_error(int idx);
-
 	int find_nal_prefix();
-
 	void ebsp_to_sodb();//sodb -> rbsp -> ebsp
+
+	void dump_NAL_type(UINT8 nalType);
+
 };
 
 

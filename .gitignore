@@ -27,3 +27,5 @@
 /demo/ExpGolomb/*.db
 /demo/ExpGolomb/*.opendb
 /demo/ExpGolomb/ExpGolomb/Debug
+/Simplest_h264_analyzer/Simplest_h264_analyzer/Win32
+/Simplest_h264_analyzer/Simplest_h264_analyzer/x64

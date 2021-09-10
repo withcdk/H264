@@ -30,3 +30,16 @@
 /Simplest_h264_analyzer/Simplest_h264_analyzer/Win32
 /Simplest_h264_analyzer/Simplest_h264_analyzer/x64
 /Simplest_h264_analyzer/bin/Debug/trace.txt
+/simplest_h264_codec/bin/*.pdb
+/simplest_h264_codec/bin/*.exe
+/simplest_h264_codec/bin/*.ilk
+/simplest_h264_codec/ipch
+/simplest_h264_codec/ldecod/Win32
+/simplest_h264_codec/ldecod/*.user
+/simplest_h264_codec/lencod/Win32
+/simplest_h264_codec/lencod/*.user
+/simplest_h264_codec/*.opensdf
+/simplest_h264_codec/*.sdf
+/simplest_h264_codec/*.suo
+/Simplest_h264_analyzer/*.sdf
+/Simplest_h264_analyzer/*.suo

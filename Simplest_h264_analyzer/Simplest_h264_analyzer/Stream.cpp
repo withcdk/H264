@@ -121,7 +121,7 @@ int CStreamFile::find_nal_prefix()
 	{
 		if ((prefix[pos % 3] == 0) && (prefix[(pos + 1) % 3] == 0) && (prefix[(pos + 2) % 3] == 1))
 		{
-			//0x 00 00 01 found
+			//0x 00 00 01 found, start_code_prefix_one_3bytes(0x00 00 01)
 			getPrefix = 1;
 			m_nalVec.pop_back();
 			m_nalVec.pop_back();
@@ -132,7 +132,7 @@ int CStreamFile::find_nal_prefix()
 		{
 			if (1 == getc(m_inputFile))
 			{
-				//0x 00 00 00 01 found
+				//0x 00 00 00 01 found, zero_byte(0x00) + start_code_prefix_one_3bytes(0x00 00 01)
 				getPrefix = 2;
 				m_nalVec.pop_back();
 				m_nalVec.pop_back();
@@ -141,7 +141,7 @@ int CStreamFile::find_nal_prefix()
 			}
 		}
 		else
-		{//当前并不是起始码的位置
+		{// current position is not the start code
 			fileByte = getc(m_inputFile);
 			prefix[(pos++) % 3] = fileByte;
 			m_nalVec.push_back(fileByte);

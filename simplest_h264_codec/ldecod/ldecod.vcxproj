@@ -76,11 +76,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="annexb.cpp" />
     <ClCompile Include="filehandle.cpp" />
     <ClCompile Include="ldecod.cpp" />
     <ClCompile Include="memalloc.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="annexb.h" />
     <ClInclude Include="global.h" />
     <ClInclude Include="memalloc.h" />
   </ItemGroup>

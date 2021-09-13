@@ -21,8 +21,6 @@ Function Description: Error handling procedure. Print error message to stderr an
 Input para: text:Error message
             code:Exit code         
 Author£ºDe-Kai Chen
-LastEditors£º
-LastEditTime£º
 *************************************************/
 void error(char *text, int code)
 {

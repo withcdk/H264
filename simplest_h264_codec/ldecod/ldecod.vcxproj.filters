@@ -24,12 +24,18 @@
     <ClCompile Include="filehandle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="annexb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="global.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="memalloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="annexb.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
